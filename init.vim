@@ -31,17 +31,22 @@ set mouse=a
 
 " --- Plugins
 
-call plug#begin('./plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 " define the plugins
 
 Plug 'sainnhe/gruvbox-material'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
  
 
 call plug#end()
 
+" require plugin configs
+lua require('zhengHugo.telescope')
+
 " --- Colors
-"
+
 set background=dark
 set termguicolors
 

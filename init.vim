@@ -43,7 +43,7 @@ Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
 " require plugin configs
-lua require('zhengHugo.telescope')
+lua require('zhengHugo')
 
 " --- Colors
 

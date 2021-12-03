@@ -31,7 +31,7 @@ set mouse=a
 
 " --- Plugins
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('./plugged')
 
 " define the plugins
 

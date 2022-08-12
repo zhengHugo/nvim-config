@@ -35,9 +35,11 @@ call plug#begin('~/.config/nvim/plugged')
 
 " define the plugins
 
-Plug 'sainnhe/gruvbox-material'
+" Plug 'sainnhe/gruvbox-material'
+Plug 'phanviet/vim-monokai-pro'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
  
 
 call plug#end()
@@ -50,5 +52,6 @@ lua require('zhengHugo')
 set background=dark
 set termguicolors
 
-colorscheme gruvbox-material
+" colorscheme gruvbox-material
+colorscheme monokai_pro
 

@@ -29,6 +29,20 @@ set updatetime=250
 set encoding=UTF-8
 set mouse=a
 
+" --- Keymaps
+noremap n j
+noremap <C-w>n <C-w>j
+noremap j n
+noremap <C-w>j <C-w>n
+noremap e k
+noremap <C-w>e <C-w>k
+noremap k e
+noremap <C-w>k <C-w>e
+noremap i l
+noremap <C-w>i <C-w>l
+noremap l i
+noremap <C-w>l <C-w>i
+
 " --- Plugins
 
 call plug#begin('~/.config/nvim/plugged')
